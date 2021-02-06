@@ -55,17 +55,17 @@ Let user enter customer information and add stuff to his/her shopping card.
 **Method :**
 `__init__()`, `__str__()`, `calculate_discount()`, `shopping_cart()`, `get_total_amount()`
 
-**calculate_discount()**
+**calculate_discount():**
 *	`total_price` = `price` * `qty`
 *	discount —> `25%` if `total_price >= 4000`
 *	discount —> `15%` if `total_price >= 2000`
 *	discount —> `10%` if `total_price < 2000`
 *	`price_tobe_paid` = `total_price – discount`
 
-**shopping_cart()**
+**shopping_cart():**
 * Let user add items in the shopping basket. Be creative with the items, set their prices as well. 
 
-**_\_str\_\_()**
+**_\_str\_\_():**
 *	Print items added and total price nicely.
 
 ### Class `Customer` :
@@ -74,7 +74,7 @@ Let user enter customer information and add stuff to his/her shopping card.
 
 Optionally create a `get_cust_info()` or similar to allow customer to enter his/her information or just define them in `__init__()` and pass customer information as arguments while creating a customer object.
 
-**_\_str\_\_()**
+**_\_str\_\_():**
 
 *	Print customer information and price nicely.
 
