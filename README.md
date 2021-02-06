@@ -86,6 +86,7 @@ In the end, print both info (customer info and shopped items info) using their r
 **Simple example:**
 
 Customer1 = [name : Jack, last_name : Russel, customer_id : 123]
+
 shopping_cart1 = [customer_id : 123, items : [necklace, ring, ear ring], total_price : 2000, discount : 300,  price_tobe_paid : 1700]
 
 Crate a few customers and print their information (Personal and shopping info). 
