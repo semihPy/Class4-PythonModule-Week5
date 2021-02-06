@@ -51,7 +51,7 @@ Define a class named `Product` with the following specifications:
 Write a `Customer` class and `Items` class. 
 Let user enter customer information and add stuff to his/her shopping card.
 
-#### Class `Items` :
+### Class `Items` :
 **Method :**
 `__init__()`, `__str__()`, `calculate_discount()`, `shopping_cart()`, `get_total_amount()`
 
@@ -68,7 +68,7 @@ Let user enter customer information and add stuff to his/her shopping card.
 **_\_str\_\_()**
 *	Print items added and total price nicely.
 
-#### Class `Customer` :
+### Class `Customer` :
 **Methods:** 
 `__init__()`, `get_cust_info()` this is optional, `__str__()`
 
