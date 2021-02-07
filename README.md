@@ -11,7 +11,12 @@ Create the class `Society` with following information:
 *	`allocate_flat()` To allocate flat according to income using the below table.
 *	`show_data()` to display the details of the entire class.
 
-![image](https://user-images.githubusercontent.com/48380735/107130781-429d7100-68d1-11eb-90df-246107a2677b.png)
+| Income        | Flat           | 
+| ------------- |:-------------:| 
+| >=25000     | A Type | 
+| >=20000 and <25000     | B Type      | 
+| >=15000 and <20000 | C Type      |
+| <15000 | D Type      |
 
 ## Question 2:
 Define a class named `ItemInfo` with the following description:
